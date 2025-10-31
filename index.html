@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Himilo Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+
+  <header>
+    <h1>Himilo Restaurant</h1>
+    <nav>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <h2>Welcome to Himilo Restaurant</h2>
+      <p>Enjoy delicious meals in a warm and cozy atmosphere.</p>
+      <a href="#menu" class="btn">View Menu</a>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Welcome to Himilo Restaurant, where every meal tells a story of flavor, culture, and care. <br>
+      Our goal is to make you feel at home with every bite.</p>
+    </section>
+    <section id="menu">
+       <h2>Our Menu</h2> 
+       <div class="menu-items"> 
+        <article class="menu-item">
+           <img src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=800&q=60" alt="Grilled Chicken"> 
+           <h3>Grilled Chicken</h3> 
+           <p>Juicy chicken with our signature sauce.</p>
+           </article> <article class="menu-item"> 
+            <img src="https://images.unsplash.com/photo-1600803907087-f56d462fd26b?auto=format&fit=crop&w=800&q=60" alt="Pasta">
+             <h3>Italian Pasta</h3> <p>Freshly made pasta with tomato and basil.</p>
+             </article>
+             <article class="menu-item"> 
+              <img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&w=800&q=60" alt="Burger">
+               <h3>Beef Burger</h3> 
+               <p>Delicious beef burger served with fries.</p> 
+              </article>
+             </div> 
+            </section>
+
+    <section id="contact">
+  <h2>Contact Us</h2>
+  <p>📍 KM4, Mogadishu, Somalia</p>
+  <p>📞+252 619643334</p>
+  <p>✉ info@himilorestaurant.com</p>
+
+  <form action="#" method="post" class="contact-form">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+    </div>
+
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+
+
+     </main>
+  <footer>
+    <p>&copy; 2025 Himilo Restaurant. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
